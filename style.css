@@ -1,0 +1,84 @@
+body, html {
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .bg-img {
+    /* The image used */
+    background-image: url("foto/aliffia5.jpg");
+  
+    min-height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  /* Add styles to the form container */
+  .container {
+    position:absolute;
+    right: 0;
+    margin: 20px;
+    max-width: 300px;
+    padding: 15px;
+    background-color: rgba(255, 0, 212, 0.664);
+  }
+  
+  /* Full-width input fields */
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  input[type=text]:focus, input[type=text]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  
+  /* Set a style for the submit button */
+  .btn {
+      display: block;
+      width: 100%;
+      border: none;
+      background-color: #05b480;
+      padding: 14px 28px;
+      font-size: 16px;
+      cursor: pointer;
+      text-align: center;
+      color: #f1f1f1;
+  }
+
+
+  .btn:hover{
+  background-color: rgb(190, 178, 178);
+  transition: .3s ease-out;
+  transition-delay: .2s;
+  border-radius: 15px;
+  }
+  
+  .font1{
+      color: #f1f1f1;
+  }
+  .font2{
+      color: #f1f1f1;
+  }
+  .font3{
+      color: #f1f1f1;
+  }
+  
+  .teks {
+    background: rgb(0, 0, 0);
+    color: rgb(255, 1, 221);
+    text-align: center;
+    display: block;
+  }
